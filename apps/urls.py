@@ -16,6 +16,7 @@ urlpatterns = [
     path('register', RegisterFormView.as_view(), name='register_page'),
     path('', IndexView.as_view(), name='index_page'),
     path('process_email/', ProcessEmailView.as_view(), name='process_email'),
+
 ]
 
 
